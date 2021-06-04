@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var diceImageVeiw1: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        diceImageVeiw1.image = #imageLiteral(resourceName: "DiceTwo")
     }
 
 
