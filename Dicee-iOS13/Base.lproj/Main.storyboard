@@ -34,6 +34,9 @@
                                 <state key="normal" title="Roll">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nWv-4V-P0h"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="6JO-0W-M54">
                                 <rect key="frame" x="250" y="357" width="120" height="120"/>
@@ -49,6 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="diceImageVeiw1" destination="nlO-6n-6Ba" id="7Mm-Ee-egC"/>
+                        <outlet property="diceImageView2" destination="6JO-0W-M54" id="yHw-5f-0Pf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
